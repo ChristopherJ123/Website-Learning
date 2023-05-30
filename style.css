@@ -1,0 +1,20 @@
+.tweet_image {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.username {
+    font-weight: bold;
+}
+/* 
+Hal yang ku pelajari di CSS
+CSS bisa akses keyword HTML seperti
+em {
+}
+meta {
+}
+
+POSITION:
+fixed = adalah posisi dimana sebuah element terpaku dalam layar mau kamu scroll kebawah atau keatas.
+*/

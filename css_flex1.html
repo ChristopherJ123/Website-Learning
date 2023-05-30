@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        height: 100vh;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+      .example1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 500px;
+        width: 500px;
+      }
+      .example1 div {
+        background-color: red;
+        width: 200px;
+        height: 100px;
+      }
+      .example2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        height: 500px;
+        width: 500px;
+      }
+      .example2 div {
+        background-color: blue;
+        width: 200px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="example1">
+        <div>123</div>
+        <div>123</div>
+        <div>123</div>
+        <div>123</div>
+        <div>123</div>
+        <div>123</div>
+      </div>
+      <div class="example2">
+        <div>abc</div>
+        <div>abc</div>
+        <div>abc</div>
+        <div>abc</div>
+        <div>abc</div>
+        <div>abc</div>
+      </div>
+    </div>
+  </body>
+</html>
